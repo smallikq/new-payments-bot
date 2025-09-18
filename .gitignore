@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.DS_Store
+
+# === Virtualenv ===
+venv/
+.env/
+.venv/
+
+# === Logs ===
+*.log
+bot.log
+
+# === Database ===
+payments.db
+*.sqlite3
+
+# === Userbot session ===
+*.session
+*.session-journal
+payments_userbot.session
+
+# === Migrations ===
+migrations/__pycache__/
+migrations/*.pyc
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === Tests artifacts ===
+htmlcov/
+.coverage
